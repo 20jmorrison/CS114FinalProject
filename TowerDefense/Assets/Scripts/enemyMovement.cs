@@ -10,7 +10,7 @@ public class enemyMovement : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 2f;
     
-    private int waypointIndex = 0;
+    public int waypointIndex = 0;
     // Start is called before the first frame update
     void Start()
     {
