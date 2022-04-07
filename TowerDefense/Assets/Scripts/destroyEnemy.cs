@@ -6,6 +6,10 @@ public class destroyEnemy : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(this.gameObject);
-    }
+       // if(collision.GetComponent<Collider>().gameObject.tag == "KillZone")
+      //  {
+            //Destroy(this.gameObject);
+       // }
+        
+     }
 }
