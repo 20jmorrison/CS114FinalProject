@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -2100573567813778024}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,7 +115,11 @@ MonoBehaviour:
   - {fileID: 3061014939867322913, guid: c7daebc08a41f4f699a4f5997688b141, type: 3}
   - {fileID: 2767688277104296663, guid: a656a8dd1ed18479193f6cc62bc84e03, type: 3}
   - {fileID: 1168151339797782938, guid: e4f47ca52b7034e7189adf88bee0b4a0, type: 3}
+<<<<<<< HEAD
   moveSpeed: 7
+=======
+  moveSpeed: 2
+>>>>>>> Sam's-Branch
   waypointIndex: 0
 --- !u!222 &9213159246180858414
 CanvasRenderer:

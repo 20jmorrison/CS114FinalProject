@@ -8,7 +8,13 @@ Architecture:            x86_64
 Running under Rosetta:   NO
 Available memory:        8192 MB
 Using pre-set license
+<<<<<<< HEAD
 Pro License: NO
+=======
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 15716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+>>>>>>> Sam's-Branch
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
@@ -18,6 +24,7 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 /Users/jaredmorrison/Desktop/towerDefenseRepo/CS114FinalProject/TowerDefense
 -logFile
 Logs/AssetImportWorker0.log
@@ -56,11 +63,51 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (730ms)
 		BeginReloadAssembly (104ms)
+=======
+C:/Users/samfo/Documents/GitHub/CS114FinalProject/TowerDefense
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51112
+Successfully changed project path to: C:/Users/samfo/Documents/GitHub/CS114FinalProject/TowerDefense
+C:/Users/samfo/Documents/GitHub/CS114FinalProject/TowerDefense
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/samfo/Documents/GitHub/CS114FinalProject/TowerDefense/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   
+    VRAM:     7858 MB
+    Driver:   27.20.21020.11000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004233 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.166 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1166ms)
+		BeginReloadAssembly (124ms)
+>>>>>>> Sam's-Branch
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (543ms)
 			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -75,12 +122,29 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (11ms)
 				ProcessInitializeOnLoadAttributes (114ms)
 				ProcessInitializeOnLoadMethodAttributes (34ms)
+=======
+		EndReloadAssembly (884ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+>>>>>>> Sam's-Branch
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.007335 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -220,9 +284,84 @@ Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+=======
+Registered in 0.009380 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018A86335010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A82392EC0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84A5F710 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A83D3B5B0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85454010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A860706D0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85467220 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A83A72BC0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A860706D0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A8547C430 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A854FC010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A8552B820 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84A5F710 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A8552B820 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84B60570 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84B60570 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A866E1640 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85679C30 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A855EA010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A86C67A50 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85DCA010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84E8E010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85493640 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A86C67A50 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85E72010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84D78760 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A83C78010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85E72010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85E9A620 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A851C0130 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C78970 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84B60570 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85493640 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85E3AC20 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.38 ms, found 3 plugins.
+>>>>>>> Sam's-Branch
 Preloading 0 native plugins for Editor in 0.00 ms.
 2022-04-06 15:21:12.354 Unity[16738:525975] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003a598f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  3.124 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3125ms)
@@ -375,6 +514,47 @@ System memory in use after: 225.0 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2703.
 Total: 3.483245 ms (FindLiveObjects: 0.172538 ms CreateObjectMapping: 0.104621 ms MarkObjects: 3.094036 ms  DeleteObjects: 0.111229 ms)
+=======
+- Completed reload, in  2.138 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2140ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1691ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (529ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 5.328200 ms (FindLiveObjects: 0.229700 ms CreateObjectMapping: 0.131900 ms MarkObjects: 4.729700 ms  DeleteObjects: 0.235400 ms)
+>>>>>>> Sam's-Branch
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -382,12 +562,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+=======
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+>>>>>>> Sam's-Branch
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 745.557224 seconds.
   path: Assets/Square.prefab
   artifactKey: Guid(ae9b1490e83634b0b8a8ca90dd416532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -445,6 +630,21 @@ System memory in use after: 229.7 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2711.
 Total: 3.552973 ms (FindLiveObjects: 0.231625 ms CreateObjectMapping: 0.096311 ms MarkObjects: 3.066478 ms  DeleteObjects: 0.157790 ms)
+=======
+  path: Assets/Scripts/generateEnemies.cs
+  artifactKey: Guid(bd4d22b421e3a43dba2f94de4332715d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/generateEnemies.cs using Guid(bd4d22b421e3a43dba2f94de4332715d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8850c82b10714b000d47a1b748d939b0') in 0.110082 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.8 MB.
+System memory in use after: 53.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 6.601600 ms (FindLiveObjects: 0.446000 ms CreateObjectMapping: 0.166400 ms MarkObjects: 5.706800 ms  DeleteObjects: 0.280500 ms)
+>>>>>>> Sam's-Branch
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -452,11 +652,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+=======
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+>>>>>>> Sam's-Branch
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.001483 seconds.
@@ -766,9 +971,98 @@ Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+=======
+Received Import Request.
+  Time since last request: 136.116400 seconds.
+  path: Assets/Prefabs/Tower.prefab
+  artifactKey: Guid(5ca01a967d4fa3c40aed5e8917ee370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower.prefab using Guid(5ca01a967d4fa3c40aed5e8917ee370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c351afb955c04beb9feb7c37877ec9be') in 0.151118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.066341 seconds.
+  path: Assets/Prefabs/Tower.prefab
+  artifactKey: Guid(5ca01a967d4fa3c40aed5e8917ee370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tower.prefab using Guid(5ca01a967d4fa3c40aed5e8917ee370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2941def590f8c015d949c64ca96c23') in 0.026021 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006894 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000018A86083020 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A8A28F210 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A86B6AD10 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A898E6D80 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A8548B220 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85E1E010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A85227020 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A83A77DC0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A83BF0A30 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84C8E9E0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A854A8010 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84845FC0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84774070 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A848C9E50 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A83A77DC0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84ED0020 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A8560A020 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84A5BA20 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A89CB0670 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A897C4030 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A8512F020 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A89D2A200 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A86AE87A0 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A89C57020 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A84A5BA20 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A8512F020 doesn't match image C:\Users\samfo\Documents\GitHub\CS114FinalProject\TowerDefense\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+>>>>>>> Sam's-Branch
 Preloading 0 native plugins for Editor in 0.00 ms.
 2022-04-06 15:38:53.494 Unity[16738:525975] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003a4fb10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  1.223 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1223ms)
@@ -889,10 +1183,17 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1321ms)
 		BeginReloadAssembly (196ms)
+=======
+- Completed reload, in  1.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1677ms)
+		BeginReloadAssembly (206ms)
+>>>>>>> Sam's-Branch
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (65ms)
 		EndReloadAssembly (1054ms)
 			LoadAssemblies (169ms)
@@ -2915,6 +3216,36 @@ System memory in use after: 237.4 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2836.
 Total: 3.881188 ms (FindLiveObjects: 0.246214 ms CreateObjectMapping: 0.098467 ms MarkObjects: 3.399364 ms  DeleteObjects: 0.136365 ms)
+=======
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1367ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2648.
+Total: 6.060200 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.096000 ms MarkObjects: 5.480400 ms  DeleteObjects: 0.259700 ms)
+>>>>>>> Sam's-Branch
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -2922,7 +3253,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+=======
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+>>>>>>> Sam's-Branch
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

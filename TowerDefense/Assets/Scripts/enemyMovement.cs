@@ -8,7 +8,7 @@ public class enemyMovement : MonoBehaviour
     [SerializeField]
     private Transform[] waypoints;
     [SerializeField]
-    private float moveSpeed = 2f;
+    private float moveSpeed = 10f;
     
     public int waypointIndex = 0;
     // Start is called before the first frame update
@@ -33,7 +33,7 @@ public class enemyMovement : MonoBehaviour
             if (transform.position == waypoints[waypointIndex].transform.position)
             {
                 waypointIndex += 1;
-                Debug.Log(waypointIndex);
+                //Debug.Log(waypointIndex); //what waypoint the enemy is at
             }
         }
     }

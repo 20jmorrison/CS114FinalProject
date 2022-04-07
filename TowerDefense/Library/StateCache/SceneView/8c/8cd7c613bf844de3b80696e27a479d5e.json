@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":24.176860809326173,"y":-12.298125267028809,"z":-16.391708374023439},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":26.410526275634767,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-2.1416027545928957,"y":0.43094727396965029,"z":-278.7399597167969},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":4.268581390380859,"orthographic":true}
+>>>>>>> Sam's-Branch

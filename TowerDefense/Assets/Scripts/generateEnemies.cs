@@ -8,8 +8,9 @@ using UnityEngine.UI;
 public class generateEnemies : MonoBehaviour
 {
     
-    public List<GameObject> pooledObjects;
+   // public List<GameObject> pooledObjects;
     public GameObject objectToPool;
+<<<<<<< HEAD
     public int amountToPool;
     [SerializeField] public float startSpawnPoint;
     public Sprite lvl1, lvl2, lvl3, lvl4, lvl5, lvl6, lvl7, lvl8;
@@ -72,22 +73,38 @@ public class generateEnemies : MonoBehaviour
             pooledObjects.Add(obj);
         }
     }
+=======
+   // public int amountToPool;
+   // [SerializeField] public float startSpawnPoint;
+    public float Timer;
+    [SerializeField] public float TimerMax = 10; //time in between enemy spawns 
+    [SerializeField] public float enemyAmount = 5;
+   
+>>>>>>> Sam's-Branch
 
     // Update is called once per frame
     void Update()
     {
-        checkState(startSpawnPoint);
-    }
+      
+        Timer -= Time.deltaTime;
 
-    public void checkState(float startSpawnPoint)
-    {
-       for (int i = amountToPool - 1; i > 0 ; i--)
-       {
-            if (pooledObjects[i - 1].transform.position.x > startSpawnPoint)
+
+        if (Timer <= 0f)
+        {
+            Timer = TimerMax;
+            if (enemyAmount > 0) // if there are enemys to spawn it will subtract an enemy untill enemy amount 0 
             {
-                pooledObjects[i].SetActive(true);
+                GameObject obj = (GameObject)Instantiate(objectToPool);
+                enemyAmount -= 1; 
             }
-       }
+            
 
+        }
     }
+<<<<<<< HEAD
+=======
+
+   
+    
+>>>>>>> Sam's-Branch
 }
